@@ -10,18 +10,18 @@
 }
 .about-container-text {
     background-color: rgb(133, 126, 123, 0.9);
-    height:300px;
-    width: 90%;
+    height:fit-content;
+    width: fit-content;
     margin: 5%;
     margin-top: 30%;
     padding: 5%;
     border-radius: 80px;
 }
 #about-header {
-    color: rgb(245, 8, 8);
+    color: rgb(109, 9, 52);
 }
 #about-text {
-    color: rgb(8, 245, 40);
+    color: black;
 }
 @media only screen and (max-width:660px) {
     .Amanda-Image {
@@ -34,10 +34,9 @@
             
     .about-container-text {
         margin: 2%;
-        padding: 10px;
+        padding: 25px;
+        height:fit-content;
+        width: fit-content;
     }
-    .about-container-text {
 
-        width: 100%;
-    }
 }

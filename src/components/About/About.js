@@ -14,18 +14,16 @@ function About() {
 
                         <div className="col-sm-9 col-lg-6">
                             <div className="about-container-text">
-                                <h2 id="about-header">Hello!</h2>
+                                <h2 id="about-header">About Me</h2>
                                 <p id="about-text">
-                                    about me...</p>
+                                I am currently studying full stack web development living in Minnesota. I have an Associates Degree in Interior Design, which has helped my flex my front end muscles.</p>
 
                                 <p id="about-text">
-                                    about me...</p>
+                                I have a background in retail management, with a little more than 15 years experience. Which has given me the ability to develop strong communication skills and a drive to succeed in a team enviornment.</p>
 
                                 <p id="about-text">
-                                    about me...</p>
+                                In my spare time I like to play video games and play around in different techonologies. I recently decided to pursue my hobbies a bit deeper and learn a new skill in a field I am passionate about.</p>
 
-                                <p id="about-text">
-                                    about me...</p>
                             </div>
                         </div>
 

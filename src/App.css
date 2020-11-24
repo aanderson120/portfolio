@@ -67,6 +67,18 @@ a, #github, #website, .external-links:active {
   align-content: flex-start;
   overflow: auto;
 }
+header {
+  background-color: rgb(133, 126, 123, 0.9);  
+  border: 2px solid  rgb(133, 126, 123);
+  color: rgb(109, 9, 52);
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-size: 38px;
+  padding: 20px;
+  margin-top: 5%;
+}
 .page-header {
   background-color: rgb(133, 126, 123, 0.9);  
   border: 2px solid  rgb(133, 126, 123);
@@ -75,8 +87,8 @@ a, #github, #website, .external-links:active {
   font-weight: 600;
   font-style: normal;
   text-align: center;
-  font-size: 40px;
-  padding: 40px;
+  font-size: 38px;
+  padding: 20px;
   margin-top: 5%;
 }
 .buttonWrapper {
@@ -105,25 +117,14 @@ a, #github, #website, .external-links:active {
 .portfolio-link {
   text-align: center;
 }
-
-/* .icon-github {
-width: 60px;
-height: 60px;
-padding: 10px;
-}
-
-.icon-linkedin {
-width: 60px;
-height: 60px;
-padding: 10px;
-}
- */
 .icons {
   align-content: center;
   text-align: center;
   padding-bottom: 20px;;
 }
-
+.card {
+  max-width: 500px;
+}
 #contact-button {
   background-color: rgb(184, 53, 103, 0.9);
   border: 2px solid rgb(184, 53, 103);
@@ -263,25 +264,6 @@ align-content: flex-start;
 overflow: auto;
 } */
 
-/* .card {
-position: relative;
-width: 60vh;
-text-align: left;
-} */
-
-/* .card > .img-container {
-height: 100%;
-overflow: hidden;
-text-align: center;
-} */
-
-/* .card > .content {
-text-align: left;
-padding-left: 2rem;
-padding-right: 2rem;
-font-size: 15px;
-} */
-
 /* SKILLS CONTAINER */
 
 /* display: block !important allows cells to stack on mobile */
@@ -319,36 +301,7 @@ text-decoration: none !important;
 /* a, #portfolioButton::active {
 color: white;
 text-decoration: none;
-} */ */
-
-.contact-container {
-padding: 70px;
-border-top: 2px solid #1F8832;
-border-bottom: 2px solid #1F8832;
-text-align:center;
-}
-
-#main-contact {
-background-color: #F4F7FA;
-}
-
-#contact-page-text {
-line-height: 40px;
-text-align: center;
-font-size: 25px;
-line-height: 48px;
-margin-left: 350px;
-margin-right: 350px;
-}
-
-.ui-form {
-padding: 40px;
-font-size: 20px;
-display: block;
-align-items: center !important;
-width: 100%;
-}
- */
+} */
 /* ********MOBILE RESPONSIVE******* */
 /* ********************************
 */
@@ -358,34 +311,16 @@ width: 100%;
     padding: 0px;
   }
 
-p, #about-text {
-font-size: 18px;
-line-height: 40px;
-padding: 0px;
-}
+  p, #about-text {
+  font-size: 18px;
+  line-height: 40px;
+  padding: 0px;
+  }
 
-p, #about-header {
-font-size: 40px;
-padding: 0px;
-}
-
-/* PORTFOLIO  */
-
-/* .card {
-position: relative;
-width: 40vh;
-text-align: left;
-} */
-
-/* .wrapper {
-padding: 10px;
-height: 100%;
-display: flex;
-flex-flow: row wrap;
-justify-content: space-around;
-align-content: flex-start;
-overflow: auto;
-} */
+  p, #about-header {
+  font-size: 40px;
+  padding: 0px;
+  }
 /* 
 p, #card-text {
 font-size: 14px;
@@ -397,54 +332,13 @@ font-size: 16px !important;
 line-height: 30px;
 } */
 
-#github, #website{
-  font-size: 15px !important;
-  margin:5px;
-}
+  #github, #website{
+    font-size: 15px !important;
+    margin:5px;
+  }
 
-.buttonWrapper {
-  padding-bottom: 30px;
-}
+  .buttonWrapper {
+    padding-bottom: 30px;
+  }
 
-/* SKILLS */
-table, .table-responsive {
-width: 320px !important;
-padding: 0 0;
-min-width: 320px !important;
-}
-
-th {
-display: block !important;
-text-align: center;
-font-size: 25px;
-line-height: 20px;
-}
-
-div, .resumeWrapper {
-padding-top: 0px;
-}
-
-.ui-form {
-padding: 0px;
-font-size: 20px;
-display: block;
-align-items: center !important;
-width: 100%;
-}
-
-/* CONTACT */
-p, #contact-page-text {
-padding: 20px;
-margin: 5px;
-line-height: 35px;
-}
-
-/* .card-title {
-padding-left: 5px !important;
-} */
-
-.content {
-padding-left: 12px !important;
-padding-right: 12px !important;
-}
 }

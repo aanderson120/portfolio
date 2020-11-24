@@ -1,4 +1,5 @@
 import React from "react";
+import '../images/AmandaAnderson.pdf'
 
 function Resume() {
     return (

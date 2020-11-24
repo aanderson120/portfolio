@@ -3,6 +3,9 @@
     color: rgb(109, 9, 52);
     font-family: 'Dosis', sans-serif;
 }
+.navbar-dark .navbar-brand {
+    color: rgb(109, 9, 52);
+}
 header {
     padding: 30px;
     background-color: rgb(133, 126, 123, 0.9);
@@ -12,7 +15,7 @@ span.navbar-brand {
     font-style: normal;
     text-align: center;
     font-size: 50px;
-    margin-right: 25%;
+    margin-right: 50%;
 }
 a {
     font-size: 30px;

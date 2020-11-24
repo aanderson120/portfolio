@@ -51,16 +51,16 @@
     {
         "id": 6,
         "image": "images/burger.png",
-        "name":"An express app that tracks your burger intake and helps you remember your favorites.",
-        "description": "eat the burger",
+        "name":"Have it Your Way",
+        "description": "An express app that tracks your burger intake and helps you remember your favorites.",
         "github": "https://github.com/aanderson120/have-it-your-way",
         "site": "https://have-it-your-way.herokuapp.com/"
     },
     {
         "id": 8,
         "image": "images/notetaker.gif",
-        "name":"A notetaker app that that will help you remember all those things that fly out of you head as soon as you turn around.",
-        "description": "all the thoughts",
+        "name":"Thoughts on Thoughts",
+        "description": "A notetaker app that that will help you remember all those things that fly out of you head as soon as you turn around.",
         "github": "https://github.com/aanderson120/thoughts-on-thoughts",
         "site": "https://thoughts-on-thoughts.herokuapp.com/"
     }    

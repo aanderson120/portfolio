@@ -16,7 +16,7 @@ function Footer() {
           <img src={linkedin} className="icon-linkedin" alt="LinkedinIcon" /></a>
 
           <a href="mailto:aanderson120@yahoo.com" rel="noopener noreferrer" target="_blank">
-          <img src={email} className="icon-linkedin" alt="EmailIcon" /></a>
+          <img src={email} className="icon-mail" alt="EmailIcon" /></a>
 
       </div>
     </footer>

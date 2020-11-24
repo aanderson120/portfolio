@@ -1,28 +1,38 @@
 footer {
-    height: 30px;
     background-color: rgb(133, 126, 123, 0.9);
     padding: 25px;
+    padding-bottom: 0%;
     bottom: 0%;
     height: 125px;
 }
 .icon-github {
-    background-color: aliceblue;
-    width: 65px;
-    height: 65px;
-    padding: 5px;
+    background-color: rgb(164, 38, 85);
+    border-color: rgb(164, 38, 85);
+    width: 35px;
+    height: 35px;
     margin: 1%;
     border-radius: 25%;
 }
 .icon-linkedin {
-    background-color: aliceblue;
-    width: 65px;
-    height: 65px;
-    padding: 5px;
+    background-color: rgb(164, 38, 85);
+    border-color: rgb(164, 38, 85);
+    width: 35px;
+    height: 35px;
+    padding: 2px;
     margin: 1%;
     border-radius: 25%;
 
 }
+.icon-mail {
+    background-color: rgb(164, 38, 85);
+    border-color: rgb(164, 38, 85);
+    width: 45px;
+    height: 35px;
+    padding: 6px;
+    margin: 1%;
+    border-radius: 25%;
 
+}
 @media only screen and (max-width:660px) {
     footer {
         width: 102%;

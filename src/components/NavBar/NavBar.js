@@ -11,9 +11,9 @@ const NavBar = (props) => {
         <Navbar variant="dark">
             <Navbar.Brand>AMANDA ANDERSON</Navbar.Brand>
           <Nav className="mr-auto">
-              <Link tag={Link} to="/">ABOUT &nbsp;</Link>
+              <Link tag={Link} to="/">ABOUT &nbsp; &nbsp; &nbsp;</Link>
               <br></br>
-              <Link tag={Link} to="/portfolio">PORTFOLIO &nbsp;</Link>
+              <Link tag={Link} to="/portfolio">PORTFOLIO</Link>
           </Nav>
         </Navbar>
 
