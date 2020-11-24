@@ -9,7 +9,7 @@ const NavBar = (props) => {
 
   return (
     <header>
-  <Navbar bg="dark" variant="dark">
+  <Navbar variant="dark">
     <Navbar.Brand>AMANDA ANDERSON</Navbar.Brand>
     <Nav className="mr-auto">
       <NavLink tag={Link} to="/">ABOUT</NavLink>

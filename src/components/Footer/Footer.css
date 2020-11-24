@@ -2,22 +2,39 @@ footer {
     height: 30px;
     background-color: rgb(133, 126, 123, 0.9);
     padding: 25px;
+    bottom: 0%;
+    height: 125px;
 }
 .icon-github {
     background-color: aliceblue;
-    width: 20px;
-    height: 20px;
+    width: 65px;
+    height: 65px;
     padding: 5px;
     margin: 1%;
     border-radius: 25%;
 }
-    
 .icon-linkedin {
     background-color: aliceblue;
-    width: 20px;
-    height: 20px;
+    width: 65px;
+    height: 65px;
     padding: 5px;
     margin: 1%;
     border-radius: 25%;
 
+}
+
+@media only screen and (max-width:660px) {
+    footer {
+        width: 102%;
+        height: 80px;
+    }
+    .icon-github {
+        width: 40px;
+        height: 40px;
+    }
+    .icon-linkedin {
+        width: 40px;
+        height: 40px;
+    
+    }
 }

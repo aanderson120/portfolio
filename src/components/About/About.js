@@ -8,11 +8,11 @@ function About() {
             <div className="App-header">
                 <span className="about-container">
                     <div className="row">
-                        <div className="col-sm-3">
+                        <div className="col-sm-3 col-lg-6">
                             <img src={headshot} className="Amanda-Image" alt="headshot" />
                         </div>
 
-                        <div className="col-sm-9">
+                        <div className="col-sm-9 col-lg-6">
                             <div className="about-container-text">
                                 <h2 id="about-header">Hello!</h2>
                                 <p id="about-text">
@@ -25,8 +25,7 @@ function About() {
                                     about me...</p>
 
                                 <p id="about-text">
-                                    about me...
-                </p>
+                                    about me...</p>
                             </div>
                         </div>
 

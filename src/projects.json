@@ -19,7 +19,7 @@
         "id": 1,
         "image": "images/weather.png",
         "name":"Weather Dashboard",
-        "description": "weather and things",
+        "description": "Plan your vacation wardrobe easier with the ability to look up the current and extended 5-day forecast for your vacation destination. ",
         "github": "https://github.com/aanderson120/WeatherDashboard",
         "site": "https://aanderson120.github.io/WeatherDashboard/"
     },
@@ -27,7 +27,7 @@
         "id": 2,
         "image":"images/grotto.png",
         "name":"Forgotten Grotto",
-        "description": "quiz the things",
+        "description": "A quick quiz to help you find your way to the Forgotten Grotto. Quiz is timed and has a high scores page to track your progress. ",
         "github": "https://github.com/aanderson120/GrottoQuiz",
         "site": "https://aanderson120.github.io/GrottoQuiz/"
     },
@@ -35,7 +35,7 @@
         "id": 3,
         "image": "images/scheduler.png",
         "name":"Daily Planner",
-        "description": "This is a simple calendar application that allows the user to save tasks for each specific hour of the current day. The user types in the task they would like to complete in the row with the relevant hour and clicks the save button on the far right. All tasks that are saved are stored locally and will remain in the text box until cleared. The current date and time are dynamically. Additionally, each row is dynamically updated by color based on the current time.",
+        "description": "A calendar app to enter daily appoints and tasks. Dynamically updates with current time and saves using local storage.",
         "tech": "HTML5, CSS3, JavaScript, jQuery, Moment.js",
         "github": "https://github.com/aanderson120/DailyPlanner",
         "site": "https://aanderson120.github.io/DailyPlanner/"
@@ -44,14 +44,14 @@
         "id": 4,
         "image": "images/pass.png",
         "name":"Password Generator",
-        "description": "how do i password",
+        "description": "A randomized password generator where the user inputs parameters and the app returns a password that fits the requirments.",
         "github": "https://aanderson120.github.io/Password-Generator/",
         "site": "https://aanderson120.github.io/Password-Generator/"
     },
     {
         "id": 6,
         "image": "images/burger.png",
-        "name":"Have It Your Way",
+        "name":"An express app that tracks your burger intake and helps you remember your favorites.",
         "description": "eat the burger",
         "github": "https://github.com/aanderson120/have-it-your-way",
         "site": "https://have-it-your-way.herokuapp.com/"
@@ -59,7 +59,7 @@
     {
         "id": 8,
         "image": "images/notetaker.gif",
-        "name":"Thoughts on Thoughts",
+        "name":"A notetaker app that that will help you remember all those things that fly out of you head as soon as you turn around.",
         "description": "all the thoughts",
         "github": "https://github.com/aanderson120/thoughts-on-thoughts",
         "site": "https://thoughts-on-thoughts.herokuapp.com/"

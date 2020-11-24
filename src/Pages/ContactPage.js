@@ -57,19 +57,8 @@ class ContactPage extends Component {
 render() {
   return (
     <main id="main-contact">
-        <div className="page-header">contact.</div>
-        <p id="contact-page-text">Contact me</p>
-
-        <div className="icons">
-
-        <a href="https://github.com/aanderson120" rel="noopener noreferrer" target="_blank">
-        <img src={github} className="icon-github" alt="Github Icon" /></a>
-       
-        <a href="https://www.linkedin.com/in/amanda-anderson-66829334/" rel="noopener noreferrer" target="_blank">
-         <img src={linkedin} className="icon-linkedin" alt="LinkedinIcon" /></a>
+        <div className="page-header">Contact Me</div>
         
-        </div>
-
           <div className="contact-form">
             <form
               className="ui-form"

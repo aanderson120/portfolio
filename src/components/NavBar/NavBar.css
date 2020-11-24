@@ -4,13 +4,18 @@
     font-family: 'Dosis', sans-serif;
 }
 header {
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
-    font-size: 40px;
     padding: 30px;
     background-color: rgb(133, 126, 123, 0.9);
     }
+span.navbar-brand {
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+}
+a.nav-link {
+    font-size: 30px
+}
     /* unvisited link */
 a, .nav-link:link {
     color: rgb(39, 19, 46);
@@ -36,12 +41,20 @@ a, .nav-link:link {
     }
 
     @media only screen and (max-width:660px) {
-        header {
+        span.navbar-brand {
             font-size: 20px;
             height: 45px;
 
         }
-        a, .nav-link {
+        a.nav-link  {
             font-size: 15px
+        }
+        header {
+            padding: 25px;
+            width: 106%;
             }
+        .App-header {
+                padding-top: 0px;
+                padding: 30px;
+        }
     }

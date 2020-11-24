@@ -28,7 +28,6 @@ render() {
           <Route exact path="/" component={Home} />
           <Route exact path="/contact" component={ContactPage}/>
           <Route exact path="/portfolio" component={PorfolioPage}/>
-          <Route exact path="/skills" component={Skills}/>
           <Route exact path="/about" component={About}/>
         </Switch>
 
