@@ -15,7 +15,7 @@ render () {
 return (
     
     <div>
-    <div id="projects" className="page-header">projects.</div>
+    <div id="projects" className="page-header">Projects</div>
     <Wrapper>
         {projects.map(project => (
             <Portfolio
