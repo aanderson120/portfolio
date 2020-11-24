@@ -47,7 +47,11 @@ a, #github, #website, .external-links:active {
   border-radius: 0.3rem;
   padding: .5rem 1rem;
   background-color: rgb(184, 53, 103);
+  border: 2px solid rgb(184, 53, 103);
   color: white;
+  font-size: 25px;
+  text-align: center;
+  border: none;
 }
 .content.card-body {
   background-color: rgb(133, 126, 123, 0.9);  
