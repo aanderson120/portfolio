@@ -5,7 +5,7 @@
   Examples of projects I have worked on and applications I have made through out my development as a full stack developer.
 
   ## Deployed Site
-  [aanderson120/portfolio](https://aanderson120.github.io/portfolio/.)
+  [Amanda Anderson - Portfolio](https://aanderson120.github.io/portfolio/)
   ![portfolio](./public/images/portfolio.png)
 
 
