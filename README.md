@@ -5,7 +5,7 @@
   Examples of projects I have worked on and applications I have made through out my development as a full stack developer.
 
   ## Deployed Site
-  [Amanda Anderson - Portfolio](https://aanderson120.github.io/portfolio/)
+  [Amanda Anderson - Portfolio](https://amanda-anderson-portfolio.herokuapp.com/)
   ![portfolio](./public/images/portfolio.png)
 
 
@@ -18,7 +18,7 @@
 | [License Information](#license-information) |
     
   ## Technology Used
-  Bootstrap, react
+  Bootstrap, react, and deployed through Herkou.
   
   ## Use
   More to come as I continue to learn new technologies and practice my skills
