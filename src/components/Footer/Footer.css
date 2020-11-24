@@ -1,0 +1,23 @@
+footer {
+    height: 30px;
+    background-color: rgb(133, 126, 123, 0.9);
+    padding: 25px;
+}
+.icon-github {
+    background-color: aliceblue;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin: 1%;
+    border-radius: 25%;
+}
+    
+.icon-linkedin {
+    background-color: aliceblue;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin: 1%;
+    border-radius: 25%;
+
+}
