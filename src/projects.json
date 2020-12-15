@@ -9,11 +9,11 @@
     },
     {
         "id": "home2",
-        "image": "images/artist.png",
-        "name":"Artists in the News",
-        "description": "An app that allows you to search an artist that may be new to you and find out what they are all about.",
-        "github": "https://github.com/tsinmoua/Artists-in-the-News",
-        "site": "https://tsinmoua.github.io/Artists-in-the-News//"
+        "image": "images/prettyDorky.gif",
+        "name":"Pretty Dorky",
+        "description": "A simple RPG where you choose your hero to run through a server farm and battle our coding enemies.",
+        "github": "https://github.com/LindseyM20/Pretty-Dorky",
+        "site": "https://pretty-dorky.herokuapp.com/"
     },
     {
         "id": 1,
