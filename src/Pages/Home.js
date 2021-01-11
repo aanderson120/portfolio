@@ -30,7 +30,7 @@ class App extends Component {
                 picture={projects[0].image}
                 name={projects[0].name}
                 description={projects[0].description}
-                tech={projects[0].tech}
+                skill={projects[0].skill}
                 github={projects[0].github}
                 site={projects[0].site}
               />
@@ -41,7 +41,7 @@ class App extends Component {
                 picture={projects[1].image}
                 name={projects[1].name}
                 description={projects[1].description}
-                tech={projects[1].tech}
+                skill={projects[1].skill}
                 github={projects[1].github}
                 site={projects[1].site}
               />

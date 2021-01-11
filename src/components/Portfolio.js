@@ -26,8 +26,13 @@ function Projects(props) {
                 {props.description} 
               </CardText>
 
+              <CardTitle 
+                style={{fontSize: "16px", fontWeight: "bold"}}>
+                Technologies Used:
+              </CardTitle>
+
               <CardText> 
-                {props.tech }
+                {props.skill }
               </CardText>
 
               <div className="portfolio-link">

@@ -24,6 +24,7 @@ return (
                 picture={project.image}
                 name={project.name}
                 description={project.description}
+                skill={project.skill}
                 github={project.github}
                 site={project.site}
             />
