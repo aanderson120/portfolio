@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import '../App.css';
 import projects from "../projects.json";
 import About from '../components/About/About';
@@ -6,71 +6,89 @@ import Portfolio from '../components/Portfolio'
 import Skills from '../components/Skills';
 import Header from '../components/Header';
 import Wrapper from '../components/Wrapper';
+import { Table } from "react-bootstrap";
 
 class App extends Component {
 
 
   render() {
-  return (
-  <main>
-    <div className="App"> 
+    return (
+      <main>
+        <div className="App">
+          <div className='About'>
+            <About />
+          </div>
+          <div className='Projects'>
+            <Header
+              header="Featured Projects"
+            />
 
-      {/* ABOUT SECTION */}
-      <div className='About'>
-        <About />
-      </div>
+            <Wrapper>
+              <Portfolio
+                key={projects[0].id}
+                id={projects[0].id}
+                picture={projects[0].image}
+                name={projects[0].name}
+                description={projects[0].description}
+                tech={projects[0].tech}
+                github={projects[0].github}
+                site={projects[0].site}
+              />
 
-      {/* PROJECTS SECTION */}
-      <div className='Projects'>
-        <Header
-          header="Featured Projects"
-        />
+              <Portfolio
+                key={projects[1].id}
+                id={projects[1].id}
+                picture={projects[1].image}
+                name={projects[1].name}
+                description={projects[1].description}
+                tech={projects[1].tech}
+                github={projects[1].github}
+                site={projects[1].site}
+              />
+            </Wrapper>
 
-        <Wrapper>
-          <Portfolio
-            key={projects[0].id}
-            id={projects[0].id}
-            picture={projects[0].image}
-            name={projects[0].name}
-            description={projects[0].description}
-            tech={projects[0].tech}
-            github={projects[0].github}
-            site={projects[0].site}
-          />
-
-          <Portfolio
-            key={projects[1].id}
-            id={projects[1].id}
-            picture={projects[1].image}
-            name={projects[1].name}
-            description={projects[1].description}
-            tech={projects[1].tech}
-            github={projects[1].github}
-            site={projects[1].site}
-          />
-        </Wrapper>
-        
-       <div className="buttonWrapper">
-        <button
-          type="submit"
-          id="portfolioButton"
-          className="profile btn-lg"
-          onClick={(event) => (window.location.href = "/portfolio")}
-          >
-          SEE FULL PORTFOLIO
+            <div className="buttonWrapper">
+              <button
+                type="submit"
+                id="portfolioButton"
+                className="profile btn-lg"
+                onClick={(event) => (window.location.href = "/portfolio")}
+              >
+                SEE FULL PORTFOLIO
           </button>
+            </div>
+          </div>
         </div>
-      </div>
-
-            {/* SKILLS SECTION */}
-            <div className='Skills'>
-  
-        <Skills />
+        <div className='Skills'>
+          <Header
+            header="Skills"
+          />
+          {/* <Skills /> */}
+          <Table hover size="sm">
+            <tbody>
+              <tr>
+                <td>HTML</td>
+                <td>CSS</td>
+                <td>JavaScript</td>
+                <td>jQuery</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+                <td>Express.js</td>
+                <td>React.js</td>
+                <td>Node.js</td>
+              </tr>
+              <tr>
+                <td>MongoDB</td>
+                <td>MySql</td>
+                <td>NoSQL</td>
+                <td>PWA</td>
+              </tr>
+            </tbody>
+          </Table>
         </div>
-
-    </div>
-  </main>
-  );
-}
+      </main>
+    );
+  }
 }
 export default App;
