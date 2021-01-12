@@ -3,7 +3,6 @@ import '../App.css';
 import projects from "../projects.json";
 import About from '../components/About/About';
 import Portfolio from '../components/Portfolio'
-import Skills from '../components/Skills';
 import Header from '../components/Header';
 import Wrapper from '../components/Wrapper';
 import { Table } from "react-bootstrap";

@@ -19,7 +19,7 @@ render() {
           <Route exact path="/portfolio" component={PorfolioPage}/>
           <Route exact path="/about" component={About}/>
 
-        <Footer />
+        <NavBar />
 
       </div>
     </Router>
