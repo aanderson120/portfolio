@@ -124,6 +124,7 @@ header {
 }
 .card {
   max-width: 500px;
+  box-shadow: 0 2px 4px antiquewhite;
 }
 #contact-button {
   background-color: rgb(184, 53, 103, 0.9);
