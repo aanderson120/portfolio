@@ -63,7 +63,7 @@ class App extends Component {
           <Header
             header="Skills"
           />
-          {/* <Skills /> */}
+
           <Table hover size="sm">
             <tbody>
               <tr>
