@@ -16,7 +16,7 @@ function About() {
                             <div className="about-container-text">
                                 <h2 id="about-header">About Me</h2>
                                 <p id="about-text">
-                                I am a full stack web developer living in Minnesota. I have an Associates Degree in Interior Design and I recently completed a full stack bootcamp through the University of Minnesota. My goal is to combine the two to create a unique experience for the user.</p>
+                                I am a full stack web developer living in Minnesota. I have an Associates Degree in Interior Design and in December of 2020 completed a full stack bootcamp through the University of Minnesota. My goal is to combine the two to create a unique experience for the user.</p>
 
                                 <p id="about-text">
                                 I have a background in retail management, with a little more than 15 years experience. Which has given me the ability to develop strong communication skills and a drive to succeed in a team enviornment.</p>
