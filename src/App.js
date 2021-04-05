@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import PorfolioPage from './Pages/PortfolioPage';
+import PortfolioPage from './Pages/PortfolioPage';
 import Home from './Pages/Home';
 import About from './components/About/About';
 import Footer from './components/Footer/Footer';
@@ -16,7 +16,7 @@ render() {
         <NavBar /> 
 
           <Route exact path="/" component={Home} />
-          <Route exact path="/portfolio" component={PorfolioPage}/>
+          <Route exact path="/portfolio" component={PortfolioPage}/>
           <Route exact path="/about" component={About}/>
 
         <Footer />
