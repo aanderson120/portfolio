@@ -5,7 +5,7 @@
   Examples of projects I have worked on and applications I have made through out my development as a full stack developer.
 
   ## Deployed Site
-  [Amanda Anderson - Portfolio](https://amanda-anderson-portfolio.herokuapp.com/)
+  [Amanda Anderson - Portfolio](https://amanda-anderson.netlify.app/)
   ![portfolio](./public/images/portfolio.png)
 
 
