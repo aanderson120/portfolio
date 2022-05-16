@@ -81,7 +81,7 @@ class App extends Component {
                 <td>MongoDB</td>
                 <td>MySql</td>
                 <td>NoSQL</td>
-                <td>PWA</td>
+                <td>Emotion</td>
               </tr>
             </tbody>
           </Table>
